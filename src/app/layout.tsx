@@ -24,12 +24,12 @@ export default function RootLayout({
     return (
         <html lang="ko">
             <body
-                className={`${rose.variable} font-rose antialiased bg-slate-400 box-border`}
+                className={`${rose.variable} font-rose antialiased bg-slate-100 box-border`}
             >
                 <ThemeProvider>
                     <Header />
                     <Footer />
-                    {children}
+                    <div className="py-24 px-6"> {children}</div>
                 </ThemeProvider>
             </body>
         </html>

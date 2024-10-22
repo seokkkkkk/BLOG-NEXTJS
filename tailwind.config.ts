@@ -6,6 +6,9 @@ const config: Config = {
     prefix: "",
     theme: {
         extend: {
+            dropShadow: {
+                layout: "0 0 8px rgba(0, 0, 0, 0.25)",
+            },
             fontFamily: {
                 rose: ["var(--font-rose)", "sans"],
             },
