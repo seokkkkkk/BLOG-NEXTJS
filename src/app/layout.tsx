@@ -29,7 +29,9 @@ export default function RootLayout({
                 <ThemeProvider>
                     <Header />
                     <Footer />
-                    <div className="py-24 px-6"> {children}</div>
+                    <div className="py-24 px-5 h-dvh">
+                        <div className="h-full">{children}</div>
+                    </div>
                 </ThemeProvider>
             </body>
         </html>
